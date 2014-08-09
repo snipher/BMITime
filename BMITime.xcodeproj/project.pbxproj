@@ -10,6 +10,9 @@
 		79332E5618C6C5EA0010A60E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 79332E5518C6C5EA0010A60E /* Foundation.framework */; };
 		79332E5918C6C5EA0010A60E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 79332E5818C6C5EA0010A60E /* main.m */; };
 		79332E5D18C6C5EA0010A60E /* BMITime.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 79332E5C18C6C5EA0010A60E /* BMITime.1 */; };
+		79332E6518C6C6300010A60E /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 79332E6418C6C6300010A60E /* Person.m */; };
+		79332E7518C6F3F90010A60E /* Employee.m in Sources */ = {isa = PBXBuildFile; fileRef = 79332E7418C6F3F90010A60E /* Employee.m */; };
+		79C009BD18CAFD6500D6E750 /* Asset.m in Sources */ = {isa = PBXBuildFile; fileRef = 79C009BC18CAFD6500D6E750 /* Asset.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -31,6 +34,12 @@
 		79332E5818C6C5EA0010A60E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		79332E5B18C6C5EA0010A60E /* BMITime-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BMITime-Prefix.pch"; sourceTree = "<group>"; };
 		79332E5C18C6C5EA0010A60E /* BMITime.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = BMITime.1; sourceTree = "<group>"; };
+		79332E6318C6C6300010A60E /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		79332E6418C6C6300010A60E /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
+		79332E7318C6F3F90010A60E /* Employee.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Employee.h; sourceTree = "<group>"; };
+		79332E7418C6F3F90010A60E /* Employee.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Employee.m; sourceTree = "<group>"; };
+		79C009BB18CAFD6400D6E750 /* Asset.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Asset.h; sourceTree = "<group>"; };
+		79C009BC18CAFD6500D6E750 /* Asset.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Asset.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,6 +57,12 @@
 		79332E4918C6C5EA0010A60E = {
 			isa = PBXGroup;
 			children = (
+				79332E7318C6F3F90010A60E /* Employee.h */,
+				79332E7418C6F3F90010A60E /* Employee.m */,
+				79C009BB18CAFD6400D6E750 /* Asset.h */,
+				79C009BC18CAFD6500D6E750 /* Asset.m */,
+				79332E6318C6C6300010A60E /* Person.h */,
+				79332E6418C6C6300010A60E /* Person.m */,
 				79332E5718C6C5EA0010A60E /* BMITime */,
 				79332E5418C6C5EA0010A60E /* Frameworks */,
 				79332E5318C6C5EA0010A60E /* Products */,
@@ -139,6 +154,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				79332E7518C6F3F90010A60E /* Employee.m in Sources */,
+				79332E6518C6C6300010A60E /* Person.m in Sources */,
+				79C009BD18CAFD6500D6E750 /* Asset.m in Sources */,
 				79332E5918C6C5EA0010A60E /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -251,6 +269,7 @@
 				79332E6218C6C5EA0010A60E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
